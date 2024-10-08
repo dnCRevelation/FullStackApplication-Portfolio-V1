@@ -25,6 +25,9 @@ The words of which the initial letter is capitalized have meanings defined under
 
 Definitions
 For the purposes of this Disclaimer:
+
+Owner refers to the author and developer of this software as the prime copyright author of this software.
+
 You means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 
 Application means the software program provided by the owner, downloaded by you on any electronic device, named FullStackApplication-Portfolio-V1.
@@ -35,7 +38,7 @@ The information contained on the Service is for general information purposes onl
 Fair Use Disclaimer
 Granting usage may use copyrighted material which has not always been specifically authorized by the copyright owner. 
 
-The Company believes this constitutes a "fair use" of any such copyrighted material as provided for in section 107 of the United States Copyright law.
+The owner believes this constitutes a "fair use" of any such copyrighted material as provided for in section 107 of the United States Copyright law.
 
 All Rights Reserved
 
