@@ -18,27 +18,3 @@ Published 2024 by dnCRevelation https://github.com/dnCRevelation/FullStackApplic
 
 FullStackApplication-Portfolio-V1 is a website containing information about my skillset and may come to demonstrate more functions upon completion. This app was developed for educational purposes and use of source code written by dnCRevelation including but not limited to notes and other files are reserved. 
 
-
-Interpretation and Definitions
-Interpretation
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
-
-Definitions
-For the purposes of this Disclaimer:
-
-Owner refers to the author and developer of this software as the prime copyright author of this software.
-
-You means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
-
-Application means the software program provided by the owner, downloaded by you on any electronic device, named FullStackApplication-Portfolio-V1.
-
-Disclaimer
-The information contained on the Service is for general information purposes only.
-
-Fair Use Disclaimer
-Granting usage may use copyrighted material which has not always been specifically authorized by the copyright owner. 
-
-The owner believes this constitutes a "fair use" of any such copyrighted material as provided for in section 107 of the United States Copyright law.
-
-All Rights Reserved
-
