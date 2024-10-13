@@ -18,3 +18,8 @@ Published 2024 by dnCRevelation https://github.com/dnCRevelation/FullStackApplic
 
 FullStackApplication-Portfolio-V1 is a website containing information about my skillset and may come to demonstrate more functions upon completion. This app was developed for educational purposes and use of source code written by dnCRevelation including but not limited to notes and other files are reserved. 
 
+# LANGUAGES + FRAMEWORKS USED
+
+Front-end: Angular 18 
+Back-end: NodeJS
+Database: MongoDB
