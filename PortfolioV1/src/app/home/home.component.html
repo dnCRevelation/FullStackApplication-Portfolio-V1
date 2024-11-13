@@ -1,0 +1,106 @@
+
+<div class="container">
+    <div class="row">
+        <!--About Me-->
+        <div class="col-xl shadow-lg border m-1 rounded-7">
+          <div class="row text-center mt-3">
+              <h2>About Me</h2>
+            </div>
+            &nbsp; 
+            <div class="text-center">
+                <img src="Headshot1_Photos.jpg" alt="profile picture" width="256" height="256" class="rounded-circle">
+            </div>
+            &nbsp;
+            <div class="text-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>    
+          
+          &nbsp;
+      </div>
+        <!--Featured Project-->
+        <div class="col-lg shadow-lg border m-1 rounded-7">
+            <div class="text-center row mt-3">
+                <h2>Featured Project</h2>
+            </div>
+            <div class="text-center">
+                &nbsp;
+                <h5>{{featuredProject.name}}</h5>
+            </div>
+
+            <mdb-carousel [controls]="true" [animation]="'fade'">
+        
+                <mdb-carousel-item [interval]="12000" *ngFor="let picture of featuredProject.pictures">
+                    <img src={{picture}} alt="Slide" class="d-block w-100" />
+                </mdb-carousel-item>
+                 
+            </mdb-carousel>
+            &nbsp;
+            <p class="mt-2">{{featuredProject.description}}</p>
+            <p>Visit the <b>Portfolio</b> section to learn more.</p>
+        </div>
+    </div>
+</div>
+&nbsp;
+&nbsp;
+<section class="mb-10">
+
+    <div class="container">
+        
+      <div class="row gx-0 align-items-center">
+
+         <!-- First column -->
+         <div class="col-lg-6 mb-5 mb-lg-0">
+
+          <div style="background: rgba(255, 255, 255, 0.55); backdrop-filter: blur(30px); z-index: 1; visibility: visible; animation-delay: 600ms; animation-duration: 500ms;" class="card rounded-7 me-lg-n5 animation fade-in" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation="fade-in" data-mdb-animation-show-on-load="false" data-mdb-animation-delay="600">
+            <div class="card-body p-lg-5 shadow-5">
+              <h2 class="fw-bold">
+                <span class="text-primary">Taking a Step Forward</span>
+              </h2>
+              <p class="fw-bold"><em>“If you think math is hard, try web design.”</em></p>
+
+              <p class="text-muted mb-4">
+                Nunc tincidunt vulputate elit. Mauris varius purus malesuada
+                neque iaculis malesuada. Aenean gravida magna orci, non
+                efficitur est porta id. Donec magna diam.
+              </p>
+              <p class="text-muted">
+                Ad, at blanditiis quaerat laborum officia incidunt
+                cupiditate dignissimos voluptates eius aliquid minus
+                praesentium! Perferendis et totam ipsum ex aut earum libero
+                accusamus voluptas quod numquam saepe, consequuntur nihil
+                quia tenetur consequatur. Quis, explicabo deserunt quasi
+                assumenda ea maiores nulla, et dolor saepe praesentium natus
+                error reiciendis voluptas iste. Esse, laudantium ipsum
+                animi, quos voluptatibus atque vero repellat sit eligendi
+                autem maiores quasi cum aperiam. Aperiam rerum culpa
+                accusantium, ducimus deserunt aliquid alias vitae quasi
+                corporis placeat vel maiores explicabo commodi!
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <!-- First column -->
+
+        <!-- Second column -->
+        <div class="col-lg-6 mb-5 mb-lg-0">
+
+          <div class="bg-image hover-overlay rounded-7 shadow-4 rotate-lg animation fade-in" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation="fade-in" data-mdb-animation-show-on-load="false" data-mdb-animation-delay="200" data-mdb-animation-offset="300" style="visibility: visible; animation-delay: 200ms; animation-duration: 500ms;">
+            <img src="codeanim.gif" class="w-100" alt="">
+            <div class="mask" style="background: linear-gradient(
+                45deg,
+              hsla(169, 84.5%, 52%, 0.3),
+              hsla(263, 87.7%, 44.7%, 0.3) 100%
+                        )">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Second column -->
+
+      </div>
+
+    </div>
+
+  </section>
