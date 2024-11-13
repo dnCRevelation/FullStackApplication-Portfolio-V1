@@ -1,6 +1,8 @@
 import { Component, Input } from '@angular/core';
-import { Project } from '../_models/project'
-import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
+import { Project } from '../_models/project';
+import { MdbModalRef, MdbModalService} from 'mdb-angular-ui-kit/modal';
+import { ProjectsService } from '../_services/projects.service';
+import { ProjectModalComponent } from '../project-modal/project-modal.component';
 
 @Component({
   selector: 'app-project-card',
@@ -9,13 +11,21 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 })
 export class ProjectCardComponent {
     @Input() project = {} as Project;
-    bsModalRef?: BsModalRef;
+    modalRef?: MdbModalRef<ProjectModalComponent>;
 
-    constructor(private modalService: BsModalService) {
+    constructor(private modalService: MdbModalService) {
 
     }
 
     OpenProjectModal() {
-      this.bsModalRef = this.modalService.show('');
+
+      this.modalService.open(ProjectModalComponent, {
+        modalClass: 'modal-lg modal-dialog-scrollable', // Set the modal size to large
+        data: { project: this.project } // Pass the project data to the modal
+      });
     }
-}
+
+    
+
+
+  }  
